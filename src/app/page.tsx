@@ -530,7 +530,7 @@ export default function BerkatProteksi() {
                   Email: info@berkatproteksi.my.id
                 <li className="flex items-center gap-2">
                   <MessageCircle className="w-4 h-4" />
-                  Online 24/7
+                  Fast response di jam kerja
                 </li>
               </ul>
             </div>
