@@ -528,6 +528,9 @@ export default function BerkatProteksi() {
                   WhatsApp: +62 878-3881-7889
                 </li>
                   Email: info@berkatproteksi.my.id
+                <li className="flex items-center gap-2">
+                  <MessageCircle className="w-4 h-4" />
+                  Online 24/7
                 </li>
               </ul>
             </div>
