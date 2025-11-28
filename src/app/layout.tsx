@@ -18,7 +18,10 @@ export const metadata: Metadata = {
   description: "Berkat Proteksi menyediakan informasi perlindungan mobil, estimasi premi, dan panduan klaim secara jelas dan mudah dipahami.",
   keywords: ["asuransi mobil","perlindungan kendaraan","estimasi premi","klaim asuransi mobil","Berkat Proteksi"],
   authors: [{ name: "Berkat Proteksi" }],
-  
+  icons: {
+  icon: "/Favicon.PNG",
+},
+
     
   
   openGraph: {
