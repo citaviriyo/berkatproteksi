@@ -603,7 +603,7 @@ export default function BerkatProteksi() {
                 <p className="text-white/75">Perlindungan Komprehensif</p>
               </div>
               <div className="mb-8">
-                <div className="pricing-price pricing-price-featured text-white mb-4">Mulai dari Rp 2.5jt/thn</div>
+                <div className="pricing-price pricing-price-featured text-white mb-4">Mulai dari Rp 1,799jt/thn</div>
               </div>
               <ul className="space-y-4 mb-10">
                 <li className="flex items-center gap-2">
@@ -642,7 +642,7 @@ export default function BerkatProteksi() {
                 <p className="text-white/70">Perlindungan Maksimal</p>
               </div>
               <div className="mb-8">
-                <div className="pricing-price pricing-price-side text-white mb-4">Mulai dari Rp 3.5jt/thn</div>
+                <div className="pricing-price pricing-price-side text-white mb-4">Mulai dari Rp 2.8jt/thn</div>
               </div>
               <ul className="space-y-4 mb-10">
                 <li className="flex items-center gap-2">
