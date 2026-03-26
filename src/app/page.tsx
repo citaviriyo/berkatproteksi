@@ -751,13 +751,13 @@ export default function BerkatProteksi() {
       </motion.section>
 
       {/* Footer */}
-      <footer className="premium-footer text-white py-16">
+      <footer className="premium-footer text-white">
         <div className="footer-divider-glow" aria-hidden="true" />
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8 md:gap-10 lg:gap-12 items-start">
+        <div className="footer-container">
+          <div className="footer-grid">
             <div className="footer-column">
               <div className="flex items-center gap-3 mb-4">
-                <div className="bg-yellow-100 p-2 rounded-full">
+                <div className="bg-yellow-100 p-2 rounded-full flex-shrink-0">
                   <img src="/logo-berkatproteksi.jpg" alt="Berkat Proteksi Logo" className="w-8 h-8 object-cover rounded-full shadow-sm" />
                 </div>
                 <h3 className="footer-brand text-xl font-bold">Berkat Proteksi</h3>
@@ -765,7 +765,7 @@ export default function BerkatProteksi() {
               <p className="footer-copy text-gray-400">Layanan konsultasi dan pemasaran asuransi kendaraan terpercaya.</p>
             </div>
             <div className="footer-column">
-              <h4 className="footer-heading text-lg font-semibold mb-4">Layanan</h4>
+              <h4 className="footer-heading font-semibold">Layanan</h4>
               <ul className="footer-list text-gray-400">
                 <li>All Risk</li>
                 <li>TLO</li>
@@ -774,24 +774,24 @@ export default function BerkatProteksi() {
               </ul>
             </div>
             <div className="footer-column">
-              <h4 className="footer-heading text-lg font-semibold mb-4">Hubungi Kami</h4>
+              <h4 className="footer-heading font-semibold">Hubungi Kami</h4>
               <ul className="footer-list text-gray-400">
                 <li className="footer-contact-item">
-                  <Phone className="footer-icon w-4 h-4" />
-                  <span className="whitespace-nowrap">WhatsApp: +62 878-3881-7889</span>
+                  <Phone className="footer-icon flex-shrink-0" />
+                  <span className="footer-contact-text">WhatsApp: +62 878-3881-7889</span>
                 </li>
                 <li className="footer-contact-item footer-contact-item-start">
-                  <Mail className="footer-icon w-4 h-4" />
-                  <span>Email: info@berkatproteksi.my.id</span>
+                  <Mail className="footer-icon flex-shrink-0" />
+                  <span className="footer-contact-text">Email: info@berkatproteksi.my.id</span>
                 </li>
                 <li className="footer-contact-item">
-                  <MessageCircle className="footer-icon w-4 h-4" />
-                  <span>Fast response di jam kerja</span>
+                  <MessageCircle className="footer-icon flex-shrink-0" />
+                  <span className="footer-contact-text">Fast response di jam kerja</span>
                 </li>
               </ul>
             </div>
             <div className="footer-column">
-              <h4 className="footer-heading text-lg font-semibold mb-4">Jam Operasional</h4>
+              <h4 className="footer-heading font-semibold">Jam Operasional</h4>
               <ul className="footer-list text-gray-400">
                 <li>Senin - Jumat: 08:00 - 21:00</li>
                 <li>Sabtu: 08:00 - 18:00</li>
@@ -799,7 +799,7 @@ export default function BerkatProteksi() {
               </ul>
             </div>
           </div>
-          <div className="footer-bottom border-t border-gray-800 mt-10 pt-8 text-center text-gray-400">
+          <div className="footer-bottom text-gray-400">
             <p>&copy; {new Date().getFullYear()} Berkat Proteksi. All rights reserved.</p>
           </div>
         </div>
